@@ -1,6 +1,7 @@
 name: Generate TSC Meeting Agenda
 
 on:
+  push:
   pull_request:
     paths:
       - '.github/workflows/generate-meeting-agendas.yml'
